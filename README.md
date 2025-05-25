@@ -18,7 +18,7 @@ Notebook dosyası içerisinde adım adım ön işleme (preprocessing), görselle
 ```
 📁 proje-klasörü/
 ├── README.md
-├── 1d755dbf-ae42-4c50-a2d3-c11a9e27ab01.ipynb
+├── main.ipynb
 ├── /images
 │   ├── input_example.png
 │   └── output_example.png
