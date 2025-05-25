@@ -16,12 +16,24 @@ Notebook dosyası içerisinde adım adım ön işleme (preprocessing), görselle
 ## 📂 Proje Yapısı
 
 ```
-📁 proje-klasörü/
-├── README.md
-├── main.ipynb
-├── /images
-│   ├── input_example.png
-│   └── output_example.png
+📁 IR-PEDESTRIAN-RESNET/
+│
+├── Data/
+│ └── LSIFIR/
+│ ├── Classification/
+│ │ ├── Train/
+│ │ └── Test/
+│ └── Detection/
+│ ├── Train/
+│ └── Test/
+│
+├── output/ # Model çıktı dosyalarının kaydedileceği klasör
+├── best_resnet4.pth # Eğitimli model dosyası
+├── best_resnet_mac.pth # Mac uyumlu model dosyası (MPS destekli)
+├── main.ipynb # Eğitim + test işlemlerini içeren notebook
+├── test.ipynb # Test amaçlı ayrı notebook
+├── ResNet.ipynb # Model mimarisi tanımı (isteğe bağlı)
+└── README.md 
 ```
 
 ## ⚙️ Kurulum
